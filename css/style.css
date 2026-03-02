@@ -289,17 +289,22 @@ img {
         margin: 5px 0;
     }
 }
+@media (max-width:991px) {
+    .gallery .info {
+width: 100%;
+display: flex;
+align-items: center;
+flex-direction: column;
+    }
+}
 
 .gallery .container .box {
     padding: 10px 0;
 }
-@media (max-width:991px) {
-.gallery .container .info {
+.gallery .container .box .info {
+    width: 100%;
     display: flex;
     align-items: center;
-    flex-direction: column;
-    width: 100%;
-}
 }
 @media (max-width:991px) {
     .gallery .container .box {
@@ -347,6 +352,7 @@ img {
     width: fit-content;
     transition: .3s;
     margin-right: 15px;
+    font-size: 14px;
 }
 
 .gallery .container .foot a.button:hover {
@@ -367,6 +373,7 @@ img {
     margin: 20px 0;
     width: fit-content;
     font-weight: 500;
+    font-size: 14px;
 }
 
 .stats {
@@ -491,7 +498,6 @@ img {
     width: fit-content;
     transition: .3s;
     margin-right: 15px;
-    font-size: 14px;
 }
 
 .subuscribe .container .input a.button:hover {
@@ -512,7 +518,6 @@ img {
     margin: 20px 0;
     width: fit-content;
     font-weight: 500;
-    font-size: 14px;
 }
 
 .foot {
