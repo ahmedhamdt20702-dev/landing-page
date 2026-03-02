@@ -373,7 +373,6 @@ flex-direction: column;
     margin: 20px 0;
     width: fit-content;
     font-weight: 500;
-    font-size: 14px;
 }
 
 .stats {
@@ -498,6 +497,7 @@ flex-direction: column;
     width: fit-content;
     transition: .3s;
     margin-right: 15px;
+    font-size: 14px;
 }
 
 .subuscribe .container .input a.button:hover {
@@ -518,6 +518,8 @@ flex-direction: column;
     margin: 20px 0;
     width: fit-content;
     font-weight: 500;
+    font-size: 14px;
+
 }
 
 .foot {
