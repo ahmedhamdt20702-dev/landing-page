@@ -293,11 +293,13 @@ img {
 .gallery .container .box {
     padding: 10px 0;
 }
-
-.gallery .container  .info {
+@media (max-width:991px) {
+.gallery .container .info {
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 100%;
+}
 }
 @media (max-width:991px) {
     .gallery .container .box {
